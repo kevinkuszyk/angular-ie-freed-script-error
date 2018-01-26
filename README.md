@@ -1,4 +1,12 @@
-# AngularIeFreedScriptError
+# Angular IE freed script error
+
+This repro contains a sample app to repro both [angular/zone.js#933](https://github.com/angular/zone.js/issues/933) and [angular/zone.js#1001](https://github.com/angular/zone.js/issues/1001).  
+
+Both of these issues are intermittent.  Starting the app and then refreshing IE a few times is usually enough to reproduce one or both of them.
+
+![image](https://user-images.githubusercontent.com/2734580/35444117-624945b4-02a5-11e8-8b89-672c3083b431.png)
+
+----
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
 
